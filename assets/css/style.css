@@ -1,0 +1,228 @@
+#cssMenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    max-height: 200px;
+}
+
+#cssMenu a{
+    vertical-align: top;
+    transition-duration: 0.5s;
+    margin-top: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: larger;
+}
+#cssMenu ul li ul li a{
+    margin-top: 0%;
+    background-color: transparent;
+}
+#cssMenu a:hover{
+    /*background-color: #35354b;*/
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.60);
+}
+#cssMenu a:active{
+    /*background-color: #43435f;*/
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.50);
+}
+#cssMenu a:focus{
+    transition-duration: 0.5s;
+    outline: solid;
+    outline-width: 5px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.50);
+}
+/*#presentation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+.container{
+    border: 2px dashed rgba(236, 198, 48, 0.5);
+}*/
+
+#presentation{
+    display: block;
+    padding-bottom: 7%;
+    margin-top: 20px;
+}
+#presentation div{
+    margin-right:10%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#presentation img{
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    vertical-align: middle;
+}
+#studies{
+    background-color: royalblue;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#studies hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#studies span{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+#language{
+    background-color: steelblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#language span{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#language img{
+    display: block;
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+footer{
+    background-color: #43435f ;
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+*::selection{
+    background-color:rgba(229.5, 229.5, 229.5, 1);
+    color : rgba(50, 0, 100, 0.8);
+}
+h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 40px;
+}
+section{
+    display: block;
+    padding-bottom: 3%;
+}
+#cssMenu ul li .pure-menu-item{
+    background-color: #43435f;
+}
+a{
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+#studies span{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img{
+    transition-duration: 0.5s;
+}
+
+img:hover{
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
+
+img:active{
+    transition-duration: 0.5s;
+    opacity: 0.6;
+}
+
+img::selection{
+    transition-duration: 0.5s;
+    opacity: 0.6;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #232332 ;
+    color: rgba(255, 255, 255, 0.9);
+}
+h1 a{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    padding: 10px;
+}
+h1 a:hover{
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
+h1 a:active{
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
+h1 a:focus{
+    outline: solid;
+    outline-width: 5px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+}
+#projects{
+    display: block;
+    margin-left: 10%;
+    margin-right: 50px;
+    width: auto;
+}
+#projects ul{
+    background-color:rgba(25, 25, 25,0.8);
+    border-radius: 5%;
+    margin: 30px;
+    padding : 20px;
+    transition-duration: 0.5s;
+    max-width: 15%;
+}
+#projects ul:hover{
+    padding-bottom: 20px;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#projects ul a{
+    text-decoration: none;
+}
+#projects ul .title{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#projects ul .lang{
+    padding-top: 20px;
+    text-align:center;
+}
+#projects ul .lang img{
+    text-align:center;
+    width: 50px;
+}
+.ecart{
+    margin-left:20px;
+}
