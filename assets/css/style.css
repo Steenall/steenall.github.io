@@ -69,6 +69,29 @@
     height: 15em;
     vertical-align: middle;
 }
+@media screen and (max-width: 1080px) {
+    #presentation div {
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center !important;
+    }
+    #presentation img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #language li{
+        padding-inline: 40px;
+    }
+    #cssMenu{
+        margin-left: 10px;
+    }
+    #cssMenu a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 #studies{
     background-color: royalblue;
     margin-bottom: 0%;
@@ -195,7 +218,7 @@ h1 a:focus{
     margin-right: 5%;
     width: auto;
 }
-#projects ul{
+#projects li{
     background-color:rgba(25, 25, 25,0.8);
     border-radius: 5%;
     margin: 30px;
@@ -204,24 +227,24 @@ h1 a:focus{
     max-width: 15%;
     min-width: 300px;
 }
-#projects ul:hover{
+#projects li:hover{
     padding-bottom: 20px;
     transform: scale(1.1);
     transition-duration: 0.5s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-#projects ul a{
+#projects li a{
     text-decoration: none;
 }
-#projects ul .title{
+#projects li .title{
     font-size: 25px;
     padding-bottom: 20px;
 }
-#projects ul .lang{
+#projects li .lang{
     padding-top: 20px;
     text-align:center;
 }
-#projects ul .lang img{
+#projects li .lang img{
     text-align:center;
     height: 50px;
 }
