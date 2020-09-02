@@ -19,6 +19,11 @@
     color: rgba(255, 255, 255, 0.80);
     font-size: larger;
 }
+
+#cssMenu ul ul a:focus{
+    outline: none;
+}
+
 #cssMenu ul li ul li a{
     margin-top: 0%;
     background-color: transparent;
@@ -34,7 +39,7 @@
     color: rgba(255, 255, 255, 0.50);
 }
 #cssMenu a:focus{
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     outline: solid;
     outline-width: 5px;
     background-color: transparent;
@@ -208,6 +213,7 @@ h1 a:active{
     opacity: 0.8;
 }
 h1 a:focus{
+    transition-duration: 0.1s;
     outline: solid;
     outline-width: 5px;
     background-color: transparent;
