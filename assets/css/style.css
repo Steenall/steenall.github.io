@@ -219,6 +219,10 @@ h1 a:focus{
     background-color: transparent;
     color: rgba(255, 255, 255, 0.8);
 }
+#projects{
+    text-align: center;
+    display: block;
+}
 #projects li{
     background-color:rgba(25, 25, 25,0.8);
     border-radius: 5%;
