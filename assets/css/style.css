@@ -55,67 +55,6 @@
     border: 2px dashed rgba(236, 198, 48, 0.5);
 }*/
 
-#presentation{
-    display: block;
-    padding-bottom: 7%;
-    margin-top: 20px;
-}
-#presentation div{
-    margin-right:10%;
-    text-align: right;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-}
-
-#presentation img{
-    border-radius: 50%;
-    width: 15em;
-    height: 15em;
-    vertical-align: middle;
-}
-#studies{
-    background-color: royalblue;
-    margin-bottom: 0%;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 3%;
-    padding-left: 25%;
-    padding-right: 25%;
-}
-#studies hr{
-    margin-left: 40px;
-    margin-right: 40px;
-}
-#studies span{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: 25px;
-}
-#language{
-    background-color: steelblue;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 5%;
-}
-#language a{
-    text-decoration: none;
-}
-#language span{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-#language img{
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    height: 150px;
-    object-fit: contain;
-}
 footer{
     background-color: #43435f ;
     padding-top: 3%;
@@ -145,11 +84,6 @@ a{
 
 a:visited{
     color: inherit;
-}
-#studies span{
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 img{
@@ -195,69 +129,7 @@ h1 a:focus{
     background-color: transparent;
     color: rgba(255, 255, 255, 0.8);
 }
-#projects{
-    text-align: center;
-    display: block;
-}
-#projects li{
-    background-color:rgba(25, 25, 25,0.8);
-    border-radius: 5%;
-    margin: 30px;
-    padding : 20px;
-    transition-duration: 0.5s;
-    max-width: 15%;
-    min-width: 300px;
-}
-#projects li:hover{
-    padding-bottom: 20px;
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-#projects li a{
-    text-decoration: none;
-}
-#projects li .title{
-    font-size: 25px;
-    padding-bottom: 20px;
-}
-#projects li .lang{
-    padding-top: 20px;
-    text-align:center;
-}
-#projects li .lang img{
-    text-align:center;
-    height: 50px;
-}
-.ecart{
-    margin-left:15px;
-}
-@media screen and (max-width: 1440px) {
-	#language img{
-		width:150px;
-	}
-}
-@media screen and (max-width: 1080px) {
-	#language img{
-		width:100px;
-	}
-}
 @media screen and (max-width: 720px) {
-    #presentation div {
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-        text-align: center !important;
-    }
-    #presentation img{
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    #language li{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
     #cssMenu{
         margin-left: 5px;
     }
@@ -265,9 +137,4 @@ h1 a:focus{
         padding-left: 10px;
         padding-right: 15px;
     }
-	#projects li{
-		margin-left : 0px;
-		min-width: 50%;
-		max-width: 70%;
-	}
 }

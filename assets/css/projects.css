@@ -1,0 +1,44 @@
+#projects{
+    text-align: center;
+    display: block;
+}
+#projects li{
+    background-color:rgba(25, 25, 25,0.8);
+    border-radius: 5%;
+    margin: 30px;
+    padding : 20px;
+    transition-duration: 0.5s;
+    max-width: 15%;
+    min-width: 300px;
+}
+#projects li:hover{
+    padding-bottom: 20px;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#projects li a{
+    text-decoration: none;
+}
+#projects li .title{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#projects li .lang{
+    padding-top: 20px;
+    text-align:center;
+}
+#projects li .lang img{
+    text-align:center;
+    height: 50px;
+}
+.ecart{
+    margin-left:15px;
+}
+@media screen and (max-width: 720px) {
+	#projects li{
+		margin-left : 0px;
+		min-width: 50%;
+		max-width: 70%;
+	}
+}

@@ -1,0 +1,105 @@
+#presentation{
+    display: block;
+    padding-bottom: 7%;
+    margin-top: 20px;
+}
+#presentation div{
+    margin-right:10%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#presentation img{
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    vertical-align: middle;
+}
+#studies{
+    background-color: royalblue;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#studies hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#studies span{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+#language{
+    background-color: steelblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#language a{
+    text-decoration: none;
+}
+#language span{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#language img{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    height: 150px;
+    object-fit: contain;
+}
+#studies span{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media screen and (max-width: 1440px) {
+	#language img{
+		width:150px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	#language img{
+		width:100px;
+	}
+}
+@media screen and (max-width: 720px) {
+    #presentation div {
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center !important;
+    }
+    #presentation img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #language li{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #cssMenu{
+        margin-left: 5px;
+    }
+    #cssMenu a{
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+	#projects li{
+		margin-left : 0px;
+		min-width: 50%;
+		max-width: 70%;
+	}
+}
