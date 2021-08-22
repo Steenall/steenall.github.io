@@ -138,3 +138,71 @@ h1 a:focus{
         padding-right: 15px;
     }
 }
+hr {
+    border: 1px solid rgba(173, 216, 230, 0.5);
+}
+/** 
+ * Popup in CSS without Javascript
+ * Inspired by the popup system of Sahil : https://codepen.io/sahil4test
+ */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #232332;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    position: sticky;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.popup .close:hover {
+    color: #ee242e  !important;
+}
+.popup .content {
+    display: block;
+    max-height: 50%;
+    overflow: auto;
+    left: 0;
+    right: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}

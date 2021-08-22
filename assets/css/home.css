@@ -26,9 +26,19 @@
     padding-left: 25%;
     padding-right: 25%;
 }
-#studies hr{
-    margin-left: 40px;
-    margin-right: 40px;
+#studies a {
+    text-decoration: none;
+}
+.selectable:hover, .selectable:focus {
+    transition-duration: 0.3s;
+    opacity: 0.8;
+    outline: solid;
+    outline-width: 6px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+}
+.popup .close:hover, .close:focus {
+    outline : none !important;
 }
 #studies span{
     padding-top: 40px;
