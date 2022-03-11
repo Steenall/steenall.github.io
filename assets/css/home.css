@@ -29,6 +29,11 @@
 #studies a {
     text-decoration: none;
 }
+
+.selectable {
+    display: block;
+}
+
 .selectable:hover, .selectable:focus {
     transition-duration: 0.3s;
     opacity: 0.8;
@@ -52,6 +57,7 @@
     text-align: center;
     padding-top: 2%;
     padding-bottom: 5%;
+    padding-right: 10px;
 }
 #language a{
     text-decoration: none;

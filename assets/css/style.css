@@ -1,4 +1,4 @@
-#cssMenu {
+.pure-menu {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +6,7 @@
     max-height: 200px;
 }
 
-#cssMenu a{
+.pure-menu a {
     vertical-align: top;
     transition-duration: 0.5s;
     margin-top: 50px;
@@ -20,25 +20,25 @@
     font-size: larger;
 }
 
-#cssMenu ul ul a:focus{
+.pure-menu ul ul a:focus{
     outline: none;
 }
 
-#cssMenu ul li ul li a{
+.pure-menu ul li ul li a, .menuitem{
     margin-top: 0%;
     background-color: transparent;
 }
-#cssMenu a:hover{
+.pure-menu a:hover{
     /*background-color: #35354b;*/
     background-color: transparent;
     color: rgba(255, 255, 255, 0.60);
 }
-#cssMenu a:active{
+.pure-menu a:active{
     /*background-color: #43435f;*/
     background-color: transparent;
     color: rgba(255, 255, 255, 0.50);
 }
-#cssMenu a:focus{
+.pure-menu a:focus{
     transition-duration: 0.1s;
     outline: solid;
     outline-width: 5px;
@@ -75,7 +75,7 @@ section{
     display: block;
     padding-bottom: 3%;
 }
-#cssMenu ul li .pure-menu-item{
+.pure-menu ul li .pure-menu-item{
     background-color: #43435f;
 }
 a{
@@ -130,10 +130,10 @@ h1 a:focus{
     color: rgba(255, 255, 255, 0.8);
 }
 @media screen and (max-width: 720px) {
-    #cssMenu{
+    .pure-menu{
         margin-left: 5px;
     }
-    #cssMenu a{
+    .pure-menu a{
         padding-left: 10px;
         padding-right: 15px;
     }

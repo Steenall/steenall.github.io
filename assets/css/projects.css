@@ -1,3 +1,65 @@
+.listLang {
+	vertical-align: top;
+    transition-duration: 0.5s;
+    background-color: #43435f;
+    font-size: larger;
+}
+
+.listLang .pure-menu-item * {
+    display: grid;
+    align-content: center;
+    align-items: stretch;
+}
+
+.listLang .pure-menu-item label {
+	text-align:center;
+    height: 3rem;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#menuProgrammingLanguage:hover {
+	background-color: initial;
+}
+
+#filter {
+	margin-left: 75%;
+}
+
+.listLang input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.listLang input[type="radio"]:checked+label,
+.Checked+label {
+    background: #232332;
+}
+
+.listLang label {
+    cursor: pointer;
+}
+
+.listLang label:hover {
+    background: #1B1B1E;
+}
+
+noscript ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.longMenuText{
+    padding: 10px;
+    text-align: center;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
 #projects{
     text-align: center;
     display: block;
